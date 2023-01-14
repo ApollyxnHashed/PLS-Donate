@@ -517,10 +517,10 @@ end)
 miscMain:AddDivider()
 
 miscMain:AddSlider('BegDelaySlid', {
-	Text = 'Mendigagem Delay (S)',
+	Text = 'Beg Delay (S)',
     Default = 15,
     Min = 10,
-    Max = 15,
+    Max = 20,
     Rounding = 0,
     Compact = false,
 })
