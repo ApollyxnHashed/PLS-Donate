@@ -615,9 +615,9 @@ local begDelay = chatTab:AddSlider("Begging Delay (S)", function(x)
 end,
   {
 	["min"] = 1,
-	["max"] = 20
+	["max"] = 30
 })
-begDelay:Set((getgenv().settings.begDelay / 15) * 100)
+begDelay:Set((getgenv().settings.begDelay / 30) * 100)
 local tym = chatTab:AddFolder("Thank You Messages:")
 local thanksMessage = tym:AddConsole({
 	["y"] = 170,
